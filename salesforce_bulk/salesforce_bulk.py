@@ -123,7 +123,6 @@ class SalesforceBulk(object):
                 username=username,
                 password=password,
                 security_token=security_token,
-                sandbox=sandbox,
                 sf_version=API_version,
                 client_id=client_id)
 
@@ -135,7 +134,6 @@ class SalesforceBulk(object):
                 username=username,
                 password=password,
                 organizationId=organizationId,
-                sandbox=sandbox,
                 sf_version=API_version,
                 client_id=client_id)
 
